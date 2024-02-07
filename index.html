@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <div id="formContainer">
+    <form id="loginForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="name" name="name" id="name" />
+        </div>
+        <div class="form-group">
+            <label for="cellphone">Cell Phone: +351 </label>
+            <input type="cellphone" name="cellphone" id="cellphone" />
+        </div>
+        <div class="form-group">
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="genero" id="feminino" />
+            <label for="feminino">Feminino </label>
+            <input type="radio" name="genero" id="masculino" />
+            <label for="masculino">Masculino </label>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+            <label for="hobbies">Hobbies: </label>
+            <input type="checkbox" name="hobbies" id="music" />
+            <label for="music">Music </label>
+            <input type="checkbox" name="hobbies" id="cinema" />
+            <label for="cinema">Cinema </label>
+            <input type="checkbox" name="hobbies" id="dance" />
+            <label for="dance">Dance </label>
+            <input type="checkbox" name="hobbies" id="photography" />
+            <label for="photography">Photography </label>
+        </div>
+        <div class="form-group">
+          <label for="age">Age: </label>
+          <input type="range" name="age" id="age" />
+          <span id="ageValue">0</span> years
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
