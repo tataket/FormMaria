@@ -1,4 +1,21 @@
 .form-group {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+#formContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+  background-color: #5a7380d3;
+  border: 1px solid #477284;
+  border-radius: 5px;
+}
+#ageValue {
+  margin-left: 10px;
+  font-weight: bold;
 }
