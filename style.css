@@ -5,14 +5,14 @@
 }
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 #formContainer {
   max-width: 400px;
   margin: auto;
   padding: 10px;
-  background-color: #5a7380d3;
-  border: 1px solid #477284;
+  background-color: #5a73808c;
+  border: 1px solid #477284f3;
   border-radius: 5px;
 }
 #ageValue {
